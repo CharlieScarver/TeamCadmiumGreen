@@ -1,0 +1,58 @@
+body {
+	background-color: #282828;
+}
+
+nav.navbar {
+	margin: 0;
+	padding: 5px;
+}
+
+nav.navbar > ul.nav {
+	float: right;
+} 
+
+nav.navbar > ul.nav > li > a {
+	color: lightgrey;
+} 
+
+nav.navbar > ul.nav > li.active > a,
+nav.navbar > ul.nav > li.active > a:visited, 
+nav.navbar > ul.nav > li.active > a:active {
+	background-color: lightgrey;
+	color: #282828;
+} 
+
+nav.navbar > ul.nav > li > a:hover {
+	background-color: grey;
+} 
+
+nav.navbar > ul.nav > li > a:focus {
+	outline: none;
+	background-color: none;
+}
+
+
+
+div#carousel-example-generic {
+	max-height: 500px;
+
+	margin: 0 auto;
+}
+
+div#carousel-example-generic > div.carousel-inner {
+	max-height: 500px;
+}
+
+div#carousel-example-generic > div.carousel-inner > div.item > img {
+	
+	max-height: 500px;
+}
+
+div.item {
+	background-color: #282828;
+	text-align: center;
+}
+
+div.item > img {
+	margin: 0 auto;
+}
