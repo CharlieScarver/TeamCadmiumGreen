@@ -1,45 +1,10 @@
 body {
+	
 	background-color: #282828;
 	background-image: linear-gradient(#282828, #4E4E4E, #5A5A5A);
 	font-family: Tahoma;
 	color: #CCC;
 }
-
-nav.navbar {
-	margin: 0;
-	padding: 5px;
-}
-
-nav.navbar > a > img.logo {
-
-	max-height: 45px;
-}
-
-nav.navbar > ul.nav {
-	float: right;
-} 
-
-nav.navbar > ul.nav > li > a {
-	color: lightgrey;
-} 
-
-nav.navbar > ul.nav > li.active > a,
-nav.navbar > ul.nav > li.active > a:visited, 
-nav.navbar > ul.nav > li.active > a:active {
-	background-color: lightgrey;
-	color: #282828;
-} 
-
-nav.navbar > ul.nav > li > a:hover {
-	background-color: grey;
-} 
-
-nav.navbar > ul.nav > li > a:focus {
-	outline: none;
-	background-color: none;
-}
-
-
 
 section > div#carousel-example-generic {
 	max-height: 500px;
@@ -134,15 +99,4 @@ section > div.section-wrapper > blockquote {
 section > div.section-wrapper > blockquote > p {
 	margin: 10px 0px 0px 40px;
 	font-size: 20px;
-}
-
-
-footer > p {
-	width: 100%;
-	margin-bottom: 0px;
-	padding: 15px 0;
-
-	background-color: #222;
-	color: #ccc;
-	text-align: center;
 }

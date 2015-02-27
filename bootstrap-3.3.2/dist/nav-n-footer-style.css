@@ -1,0 +1,46 @@
+nav.navbar {
+	margin: 0;
+	padding: 5px;
+}
+
+nav.navbar > a > img.logo {
+
+	max-height: 45px;
+}
+
+nav.navbar > ul.nav {
+	float: right;
+} 
+
+nav.navbar > ul.nav > li > a {
+	color: lightgrey;
+} 
+
+nav.navbar > ul.nav > li.active > a,
+nav.navbar > ul.nav > li.active > a:visited, 
+nav.navbar > ul.nav > li.active > a:active {
+	background-color: lightgrey;
+	color: #282828;
+} 
+
+nav.navbar > ul.nav > li > a:hover {
+	background-color: grey;
+} 
+
+nav.navbar > ul.nav > li > a:focus {
+	outline: none;
+	background-color: none;
+}
+
+
+footer > p {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 15px 0;
+
+	background-color: #222;
+	color: #ccc;
+	text-align: center;
+}
