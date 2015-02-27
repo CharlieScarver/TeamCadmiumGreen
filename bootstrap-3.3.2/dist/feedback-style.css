@@ -75,9 +75,11 @@ main > form > section > input[type="submit"]:hover {
 }
 
 
-footer > p {
-	position: absolute;
-	bottom: 0;
+@media screen and (min-height: 690px) {
+	footer > p {
+		position: absolute;
+		bottom: 0;
+	}
 }
 
 @media screen and (min-width: 769px) {
