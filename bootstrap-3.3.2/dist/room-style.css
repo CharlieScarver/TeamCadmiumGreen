@@ -65,7 +65,7 @@ div.item > div.text-gradient {
     text-shadow: 0 0 15px black;
 }
 section > div.section-wrapper {
-    width: 80%;
+    width: 90%;
 
     margin: 20px auto;
     border-top: 5px dashed #AAA;
@@ -75,7 +75,7 @@ section > div.section-wrapper {
 }
 section .section-wrapper >img:first-of-type{
     float: left;
-    max-width: 180px;
+    max-width: 200px;
 
     margin: 30px;
 }
@@ -93,6 +93,7 @@ section > div.section-wrapper  > p:last-of-type{
 }
 section .section-wrapper >img:last-of-type{
     float: right;
-    max-width: 250px;
+    max-width: 290px;
+    margin-top: -50px;
 }
 
