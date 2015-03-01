@@ -73,7 +73,7 @@ section > div.section-wrapper {
 
     color: #CCC;
 }
-section .section-wrapper >img{
+section .section-wrapper >img:first-of-type{
     float: left;
     max-width: 180px;
 
@@ -84,11 +84,15 @@ section > div.section-wrapper > h1 {
 }
 section > div.section-wrapper  > p:first-of-type {
     margin: 10px 0px 0px 40px;
-    font-size: 20px;
+    font-size: 18px;
 }
 section > div.section-wrapper  > p:last-of-type{
     font-family: "Colonna MT";
     font-size:28px ;
     text-align: center;
+}
+section .section-wrapper >img:last-of-type{
+    float: right;
+    max-width: 250px;
 }
 
