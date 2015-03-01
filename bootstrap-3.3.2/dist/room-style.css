@@ -76,24 +76,30 @@ section > div.section-wrapper {
 section .section-wrapper >img:first-of-type{
     float: left;
     max-width: 200px;
-
+    border-radius: 10px;
     margin: 30px;
+    box-shadow: 15px 15px 60px 	#991F00;
 }
 section > div.section-wrapper > h1 {
     font-family: "Colonna MT";
+    text-shadow: 15px 15px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:first-of-type {
     margin: 10px 0px 0px 40px;
     font-size: 18px;
+    text-shadow: 15px 15px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:last-of-type{
     font-family: "Colonna MT";
     font-size:28px ;
     text-align: center;
+    text-shadow: 15px 15px 30px 	#991F00;
 }
 section .section-wrapper >img:last-of-type{
     float: right;
-    max-width: 290px;
-    margin-top: -50px;
+    max-width: 300px;
+    margin-top: -60px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 60px 	#991F00;
 }
 
