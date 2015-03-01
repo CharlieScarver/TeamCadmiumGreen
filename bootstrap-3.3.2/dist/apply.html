@@ -33,7 +33,46 @@
                 <li role="presentation"><a href="#">Gallery</a></li>
                  <li role="presentation"class="active"><a href="#">Apply</a></li>
                 <li role="presentation"><a href="feedback.html">Feedback</a></li>
-    </ul>
-</nav>
+            </ul>
+    </nav>
+<!-- content -->
+    <main>
+        <form>
+            <header>
+                <h3>If you want an unforgetable experience, you can apply for a meeting with the brilliant and passionate Nakov!Your only tast is to type this form.</h3>
+            </header>
+            <section>
+                <label for="name">Your name: </label>
+                <input type="text" name="name" id="name" placeholder="Who are you?" />
+
+                <label for="job">Your occupation: </label>
+                <input type="text" name="job" id="job" placeholder="What do you do?" />
+
+                <label for="balance">Your bank balance: </label>
+                <input type="text" name="balance" id="balance" placeholder="How rich are you?" />
+
+                <label id="gender">Gender: </label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female" >Female</option>
+                    <option value="other"selected="selected">Other</option>
+                </select>
+
+                <label for="age" id="age-label">Your age: </label>
+                <input type="text" name="age" id="age" placeholder="How old are you?" />
+
+            </section>
+            <section>
+                <label for="like-nakov" id="like-nakov">Do you like Nakov?</label>
+                <select name="like-nakov" id="like-nakov" size="1">
+                    <option value="">Yes</option>
+                    <option value="">I can't wait to meet him.</option>
+                </select>
+                <label for="opinion-area">If you have special requirements on the meeting, please write them down here:</label>
+                <textarea name="opinion-area" id="opinion-area" rows="10" placeholder="Write your special requirements..." ></textarea>
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+    </main>
 </body>
 </html>
