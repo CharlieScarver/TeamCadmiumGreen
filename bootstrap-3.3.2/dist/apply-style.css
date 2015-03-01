@@ -10,6 +10,7 @@ main {
     margin: 20px auto;
     border: 5px dashed #AAA;
     padding: 40px;
+    box-shadow: 15px 15px 50px 	#991F00;
 }
 
 main > form > header > h3 {
