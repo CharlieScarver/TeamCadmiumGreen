@@ -58,19 +58,47 @@
                     <option value="female" >Female</option>
                     <option value="other"selected="selected">Other</option>
                 </select>
-
-                <label for="age" id="age-label">Your age: </label>
-                <input type="text" name="age" id="age" placeholder="How old are you?" />
-
-            </section>
-            <section>
                 <label for="like-nakov" id="like-nakov">Do you like Nakov?</label>
                 <select name="like-nakov" id="like-nakov" size="1">
                     <option value="">Yes</option>
                     <option value="">I can't wait to meet him.</option>
                 </select>
+
+
+
+                <label id="experience">Do you have experience in such entertainment: </label>
+                <label for="yes" class="sex">Yes </label>
+                <input type="radio" name="sex" id="yes" value="yes">
+                <label for="no" class="sex">No </label>
+                <input type="radio" name="sex" id="no" value="no">
+
+                <label for="answer-yes">If you answered "yes", please discribe them:</label>
+                <textarea name="opinion-area" id="answer-yes" rows="3" placeholder="Discribe them......."></textarea>
+
+                <label for="meeting-hours" >How long meeting do you want:</label>
+                <select name="meeting" id="meeting-hours">
+                    <option value="">1 hour</option>
+                    <option value="">2 hours </option>
+                    <option value="">3 hours</option>
+                    <option value="">Whole night</option>
+                </select>
+
+
+
+
+            </section>
+
+            <section>
+                <label for="dress" >How do you prefer to be dressed Nakov: </label>
+                <select name="nakov-dress" id="dress">
+                    <option value="">As programmer</option>
+                    <option value="">As batman </option>
+                    <option value="">As superman</option>
+                    <option value="">As cowboy</option>
+                </select>
+
                 <label for="opinion-area">If you have special requirements on the meeting, please write them down here:</label>
-                <textarea name="opinion-area" id="opinion-area" rows="10" placeholder="Write your special requirements..." ></textarea>
+                <textarea name="opinion-area" id="opinion-area" rows="10"  placeholder="Write your special requirements..." ></textarea>
                 <input type="submit" value="Submit">
             </section>
         </form>

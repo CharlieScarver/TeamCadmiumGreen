@@ -1,7 +1,7 @@
 body {
     background-color: #282828;
     color: #CCC;
-    overflow: hidden;
+    overflow:hidden
 }
 
 main {
@@ -38,11 +38,10 @@ main > form > section > select {
 main > form > section > label#gender {
     display: block;
 }
-
-main > form > section > label.sex {
-    margin-left: -10px;
-    border: 1px solid white;
+main > form > section > label#experience {
+    display: block;
 }
+
 
 main > form > section > input[type="radio"] {
     display: inline-block;
@@ -75,8 +74,6 @@ main > form > section > input[type="submit"]:hover {
     background-color: #CCC;
     color: #282828;
 }
-
-
 @media screen and (min-height: 690px) {
     footer > p {
         position: absolute;
@@ -104,9 +101,10 @@ main > form > section > input[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     body {
         border: 2px solid red;
     }
 
 }
+
