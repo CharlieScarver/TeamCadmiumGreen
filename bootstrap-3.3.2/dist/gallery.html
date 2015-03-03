@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Fifty Shades Of Nakov </title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $DragOrientation: 3,
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,
+                    $ChanceToShow: 2,
+                    $AutoCenter: 0,
+                    $Steps: 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        });
+    </script>
+    <link rel="stylesheet" href="nav-n-footer-style.css">
+    <link rel="stylesheet" href="gallery-styles.css"/>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <a href="#">
+        <img class="logo" alt="logo" src="images/logo-title.png" />
+    </a>
+    <ul class="nav nav-pills">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation"class="active"><a href="#">Gallery</a></li>
+        <li role="presentation"><a href="apply.html">Apply</a></li>
+        <li role="presentation"><a href="contacts.html">Contacts</a></li>
+        <li role="presentation"><a href="red-room.html">Red Room</a></li>
+        <li role="presentation"><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+<div id="slider1_container" class="asd" style="">
+
+    <!-- Slides Container -->
+    <!-- Add More of Nakov  -->
+    <div u="slides" class="slides">
+        <div><img u="image" src="images/1.jpg" /></div>
+        <div><img u="image" src="images/2.png" /></div>
+        <div><img u="image" src="images/3.jpg" /></div>
+    </div>
+
+        <span u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 175px; left: 8px;">
+        </span>
+
+        <span u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 175px; right: 8px">
+        </span>
+
+</div>
+
+    <footer>
+        <p> Copyright &copy; 2015 SoftUni - Team CadmiumGreen </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.asd{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 180px;
+    left: 0px;
+    width: 600px;
+    height: 800px;
+}
+.slides{
+    cursor: move;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+body{
+    background-color: #282828;
+    font-family: Tahoma;
+    color: #CCC;
+}
+a {
+    display: none;
+}
+
+.jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(images/a03.png) no-repeat;
+    overflow:hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03ldn { background-position: -243px -33px; }
+.jssora03rdn { background-position: -303px -33px; }
