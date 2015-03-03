@@ -7,9 +7,11 @@ body {
 main {
 	width: 80%;
 
-	margin: 20px auto;
+	margin: 50px auto;
 	border: 5px dashed #AAA;
 	padding: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 60px #991F00;
 }
 
 main > form > header > h3 {
@@ -67,6 +69,10 @@ main > form > section > input[type="submit"] {
 	background-color: #282828;
 	color: #CCC;
 	font-weight: bold;
+}
+
+.glow {
+    box-shadow: 5px 5px 10px #991F00;
 }
 
 main > form > section > input[type="submit"]:hover {
