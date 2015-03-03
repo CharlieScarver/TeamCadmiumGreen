@@ -7,18 +7,18 @@ body {
 }
 
 section > div#carousel-example-generic {
-    max-height: 500px;
+    height: 500px;
 
     margin: 0 auto;
 }
 
 section > div#carousel-example-generic > div.carousel-inner {
-    max-height: 500px;
+    height: 500px;
 }
 
 section > div#carousel-example-generic > div.carousel-inner > div.item > img {
 
-    max-height: 500px;
+    height: 500px;
 }
 
 section > div#carousel-example-generic > div.carousel-inner >
@@ -64,6 +64,9 @@ div.item > div.text-gradient {
     color: #EEE;
     text-shadow: 0 0 15px black;
 }
+
+/* --------------------- */
+
 section > div.section-wrapper {
     width: 90%;
 
@@ -78,28 +81,28 @@ section .section-wrapper >img:first-of-type{
     max-width: 200px;
     border-radius: 10px;
     margin: 30px;
-    box-shadow: 15px 15px 60px 	#991F00;
+    box-shadow: 0px 0px 60px 	#991F00;
 }
 section > div.section-wrapper > h1 {
     font-family: "Colonna MT";
-    text-shadow: 15px 15px 30px 	#991F00;
+    text-shadow: 0px 0px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:first-of-type {
     margin: 10px 0px 0px 40px;
     font-size: 18px;
-    text-shadow: 15px 15px 30px 	#991F00;
+    text-shadow: 0px 0px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:last-of-type{
     font-family: "Colonna MT";
     font-size:28px ;
     text-align: center;
-    text-shadow: 15px 15px 30px 	#991F00;
+    text-shadow: 0px 0px 30px 	#991F00;
 }
 section .section-wrapper >img:last-of-type{
     float: right;
     max-width: 300px;
     margin-top: -60px;
     border-radius: 10px;
-    box-shadow: 15px 15px 60px 	#991F00;
+    box-shadow: 0px 0px 60px 	#991F00;
 }
 
