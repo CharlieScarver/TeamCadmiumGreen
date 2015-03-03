@@ -1,6 +1,8 @@
 nav.navbar {
 	margin: 0;
 	padding: 5px;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
 }
 
 nav.navbar > a > img.logo {

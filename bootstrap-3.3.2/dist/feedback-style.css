@@ -104,7 +104,7 @@ main > form > section > input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
 	body {
-		border: 2px solid red;
+		/*border: 2px solid red;*/
 	}
 
 }

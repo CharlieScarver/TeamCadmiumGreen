@@ -23,9 +23,9 @@
     <title>Fifty Shades of Nakov</title>
 </head>
 <body>
-<!-- Navigation bar -->
+    <!-- Navigation bar -->
     <nav class="navbar navbar-inverse">
-        <a href="#">
+        <a href="index.html">
             <img class="logo" alt="logo" src="images/logo-title.png" />
         </a>
             <ul class="nav nav-pills">
@@ -36,20 +36,21 @@
                 <li role="presentation"><a href="feedback.html">Feedback</a></li>
             </ul>
     </nav>
-<!-- content -->
+
+    <!-- Content -->
     <main>
         <form>
             <header>
-                <h3>If you want an unforgetable experience, you can apply for a meeting with the brilliant and passionate Nakov!Your only tast is to type this form.</h3>
+                <h3>Apply form</h3>
             </header>
             <section>
-                <label for="name">Your name: </label>
+                <label for="name" class="pointer">Your name: </label>
                 <input type="text" name="name" id="name" placeholder="Who are you?" />
 
-                <label for="job">Your occupation: </label>
+                <label for="job" class="pointer">Your occupation: </label>
                 <input type="text" name="job" id="job" placeholder="What do you do?" />
 
-                <label for="balance">Your bank balance: </label>
+                <label for="balance" class="pointer">Your bank balance: </label>
                 <input type="text" name="balance" id="balance" placeholder="How rich are you?" />
 
                 <label id="gender">Gender: </label>
@@ -64,18 +65,27 @@
                     <option value="">I can't wait to meet him.</option>
                 </select>
 
-
-
-                <label id="experience">Do you have experience in such entertainment: </label>
-                <label for="yes" class="sex">Yes </label>
-                <input type="radio" name="sex" id="yes" value="yes">
-                <label for="no" class="sex">No </label>
-                <input type="radio" name="sex" id="no" value="no">
-
-                <label for="answer-yes">If you answer "yes", please discribe them:</label>
+                <div class="experience">
+                    <label id="experience">Do you have experience in such entertainment: </label>
+                    <div id="radios">
+                         <div id="radio-yes">
+                            <label for="yes" class="sex pointer">Yes </label>
+                            <input type="radio" name="sex" id="yes" value="yes">
+                        </div>
+                        <div id="radio-no" >
+                            <label for="no" class="sex pointer">No </label>
+                            <input type="radio" name="sex" id="no" value="no">
+                        </div>
+                    </div>
+                </div>
+                             
+                <label for="answer-yes" class="pointer">If you answer "yes", please discribe them:</label>
                 <textarea name="opinion-area" id="answer-yes" rows="3" placeholder="Discribe them......."></textarea>
 
-                <label for="meeting-hours" >How long meeting do you want:</label>
+            </section>
+
+            <section>
+                <label for="meeting-hours" >How long would you like your meeting to be: </label>
                 <select name="meeting" id="meeting-hours">
                     <option value="">1 hour</option>
                     <option value="">2 hours </option>
@@ -83,26 +93,28 @@
                     <option value="">Whole night</option>
                 </select>
 
-
-
-
-            </section>
-
-            <section>
-                <label for="dress" >How do you prefer to be dressed Nakov: </label>
+                <label for="dress" >How would you prefer Nakov to be dressed: </label>
                 <select name="nakov-dress" id="dress">
-                    <option value="">As programmer</option>
-                    <option value="">As batman </option>
-                    <option value="">As superman</option>
-                    <option value="">As cowboy</option>
+                    <option value="">As a programmer</option>
+                    <option value="">As Batman </option>
+                    <option value="">As Superman</option>
+                    <option value="">As a cowboy</option>
+                    <option value="">Clothes are for losers</option>
                 </select>
 
-                <label for="opinion-area">If you have special requirements for the meeting, please write them down here:</label>
+                <label for="opinion-area" class="pointer">If you have any 'special' requirements for the meeting, please write them here:</label>
                 <textarea name="opinion-area" id="opinion-area" rows="10"  placeholder="Write your special requirements..." ></textarea>
+
+                <p id="warning">
+                    By submitting this form you agree to <a href="#"> Nakov's Terms and Conditions.</a>
+                </p>
+
                 <input type="submit" value="Submit">
             </section>
         </form>
     </main>
+
+    <!-- Footer -->
     <footer>
         <p> Copyright &copy; 2015 SoftUni - Team CadmiumGreen </p>
     </footer>
