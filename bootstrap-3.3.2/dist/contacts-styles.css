@@ -1,0 +1,57 @@
+body {
+    background-color: #282828;
+    font-family: Tahoma;
+    color: #CCC;
+}
+input, label {
+    display: block;
+    margin: 35px 0 35px 30px;
+}
+
+.contact-form {
+    font-size: 25px;
+    width: 1300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed grey;
+    box-shadow: 15px 15px 60px #991F00;
+    position: relative;
+    top: 45px;
+}
+textarea{
+    float: right;
+    margin: 0 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(0, -50%)
+}
+button {
+    float: right;
+    width: 58%;
+    margin: 0 30px;
+    margin: 0;
+    position: absolute;
+    top: 83%;
+    left: 38%;
+    transform: translate(0, -50%)
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 32%; // This is the aspect ratio
+    height: 150px;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.glow {
+    box-shadow: 5px 5px 10px #991F00;
+}
