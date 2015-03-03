@@ -55,3 +55,28 @@ button {
 .glow {
     box-shadow: 5px 5px 10px #991F00;
 }
+.coordinates {
+    position: relative;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0, 0.9);
+    width: 350px;
+    bottom: 200px;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+.info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.info li {
+    margin-bottom: 15px;
+}
+.info li span {
+    color: #991F00;
+}
+.bigger {
+    color: #991F00;
+    text-transform: uppercase;
+    font-size: 25px;
+}
