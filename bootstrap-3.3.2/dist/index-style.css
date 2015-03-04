@@ -13,12 +13,11 @@ section > div#carousel-example-generic {
 }
 
 section > div#carousel-example-generic > div.carousel-inner {
-	max-height: 500px;
+	height: 500px;
 }
 
 section > div#carousel-example-generic > div.carousel-inner > div.item > img {
-	
-	max-height: 500px;
+	height: 500px;
 }
 
 section > div#carousel-example-generic > div.carousel-inner > 
@@ -105,4 +104,9 @@ section > div.section-wrapper > blockquote {
 section > div.section-wrapper > blockquote > p {
 	margin: 10px 0px 0px 40px;
 	font-size: 20px;
+}
+
+
+@media screen and (max-width: 670px) {
+	
 }

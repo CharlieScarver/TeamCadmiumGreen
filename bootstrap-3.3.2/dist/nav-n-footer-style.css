@@ -35,7 +35,7 @@ nav.navbar > ul.nav > li > a:focus {
 }
 
 
-footer > p {
+footer > div.footer-holder {
 	position: relative;
 	bottom: 0;
 	width: 100%;
@@ -45,4 +45,21 @@ footer > p {
 	background-color: #222;
 	color: #ccc;
 	text-align: center;
+}
+
+footer > div.footer-holder > p {
+	margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 670px) {
+	nav.navbar > a > img.logo {
+		display: none;
+	}
+}
+
+@media screen and (min-height: 690px) {
+	footer > div.footer-holder {
+		position: absolute;
+		bottom: 0;
+	}
 }
