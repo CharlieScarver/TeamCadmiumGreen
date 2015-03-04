@@ -98,6 +98,7 @@ iframe {
     .contact-form {
         width: 90%;
         margin: 0 auto;
+        height: 400px;
 
     }
     input, textarea, button,label{
@@ -107,6 +108,15 @@ iframe {
         clear: both;
         margin: 0 auto;
     }
+    textarea{
+        position:absolute;
 
+        top:50%;
+        left: 5%;
+    }
+    button{
+        top:80%;
+        left: 5%;
+    }
 }
 
