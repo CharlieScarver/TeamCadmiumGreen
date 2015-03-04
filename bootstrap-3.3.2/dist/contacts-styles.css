@@ -7,6 +7,9 @@ input, label {
     display: block;
     margin: 35px 0 35px 30px;
 }
+input{
+    width: 30%;
+}
 
 .contact-form {
     font-size: 25px;
@@ -20,6 +23,7 @@ input, label {
     top: 45px;
 }
 textarea{
+    width: 58%;
     float: right;
     margin: 0 30px;
     margin: 0;
@@ -88,7 +92,31 @@ iframe {
     width: 90%;
     margin:0 auto;
   }
-  .contact-form >textarea{
-    
-  }
+
 }
+@media only screen and (max-width : 768px) {
+    .contact-form {
+        width: 90%;
+        margin: 0 auto;
+        height: 400px;
+
+    }
+    input, textarea, button,label{
+        width: 90%;
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+    }
+    textarea{
+        position:absolute;
+
+        top:50%;
+        left: 5%;
+    }
+    button{
+        top:80%;
+        left: 5%;
+    }
+}
+
