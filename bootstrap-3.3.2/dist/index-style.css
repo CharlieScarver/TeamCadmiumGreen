@@ -1,112 +1,123 @@
-body {
-	
-	background-color: #282828;
-	background-image: linear-gradient(#282828, #4E4E4E, #5A5A5A);
-	font-family: Tahoma;
-	color: #CCC;
+body
+{
+    font-family: Tahoma;
+
+    color: #ccc;
+    background-color: #282828;
+    background-image: linear-gradient(#282828, #4e4e4e, #5a5a5a);
 }
 
-section > div#carousel-example-generic {
-	max-height: 500px;
-
-	margin: 0 auto;
+section > div#carousel-example-generic
+{
+    max-height: 500px;
+    margin: 0 auto;
 }
 
-section > div#carousel-example-generic > div.carousel-inner {
-	height: 500px;
+section > div#carousel-example-generic > div.carousel-inner
+{
+    height: 500px;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > div.item > img {
-	height: 500px;
+section > div#carousel-example-generic > div.carousel-inner > div.item > img
+{
+    height: 500px;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item {
-	background-color: #282828;
-	text-align: center;
+section > div#carousel-example-generic > div.carousel-inner > div.item
+{
+    text-align: center;
+
+    background-color: #282828;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item > img {
-	margin: 0 auto;
+section > div#carousel-example-generic > div.carousel-inner > div.item > img
+{
+    margin: 0 auto;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item > div.carousel-caption {
-	color: #CCC;
-	font-family: Georgia;
-	font-size: 30px;
+section > div#carousel-example-generic > div.carousel-inner > div.item > div.carousel-caption
+{
+    font-family: Georgia;
+    font-size: 30px;
+
+    color: #ccc;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item > a > div.apply-black-button {
-	min-width: 380px;
-	width: 20%;
-	margin: 0 auto 30px;
-	border: 2px solid black;
-	border-radius: 20px;
-	padding: 5px 10px;
+section > div#carousel-example-generic > div.carousel-inner > div.item > a > div.apply-black-button
+{
+    font-size: 22px;
 
-	font-size: 22px;
-	background-color: black;
+    width: 20%;
+    min-width: 380px;
+    margin: 0 auto 30px;
+    padding: 5px 10px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item > a > div.apply-black-button {
-	font-weight: bold;
-	text-decoration: none;
-	color: #CCC;
+section > div#carousel-example-generic > div.carousel-inner > div.item > a > div.apply-black-button
+{
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #ccc;
 }
 
-section > div#carousel-example-generic > div.carousel-inner > 
-div.item > div.text-gradient {
-	color: #EEE;
-	text-shadow: 0 0 15px black;
+section > div#carousel-example-generic > div.carousel-inner > div.item > div.text-gradient
+{
+    color: #eee;
+    text-shadow: 0 0 15px black;
 }
 
 /* --------------- */
 
-section > div.section-wrapper {
-	width: 80%;
+section > div.section-wrapper
+{
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
 
-	margin: 20px auto;
-	border-top: 5px dashed #AAA;
-	padding: 40px;
-
-	color: #CCC;
+    color: #ccc;
+    border-top: 5px dashed #aaa;
 }
 
-section > div.section-wrapper > img {
-	float: left;
-	max-width: 180px;
+section > div.section-wrapper > img
+{
+    float: left;
 
-	margin: 30px;
+    max-width: 180px;
+    margin: 30px;
 }
 
-section > div.section-wrapper > h1 {
-	font-family: "Colonna MT";
+section > div.section-wrapper > h1
+{
+    font-family: 'Colonna MT';
 }
 
-section > div.section-wrapper > p {
-	font-size: 18px;
+section > div.section-wrapper > p
+{
+    font-size: 18px;
 }
 
-section > div.section-wrapper > p > a {
-	color: #222;
+section > div.section-wrapper > p > a
+{
+    color: #222;
 }
 
-section > div.section-wrapper > blockquote {
-	font-size: 20px;
-	font-family: Georgia;
-	font-style: italic;
+section > div.section-wrapper > blockquote
+{
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: italic;
 }
 
-section > div.section-wrapper > blockquote > p {
-	margin: 10px 0px 0px 40px;
-	font-size: 20px;
+section > div.section-wrapper > blockquote > p
+{
+    font-size: 20px;
+
+    margin: 10px 0 0 40px;
 }
 
-
-@media screen and (max-width: 670px) {
-	
-}
