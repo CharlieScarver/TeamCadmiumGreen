@@ -61,7 +61,7 @@ button {
     border: 1px solid transparent;
     background-color: rgba(0,0,0, 0.9);
     width: 350px;
-    bottom: 30%;
+    bottom: 15%;
     padding-left: 25px;
     margin-left: 25px;
 }
@@ -96,11 +96,7 @@ iframe {
     width: 90%;
     margin:0 auto;
   }
-    .coordinates{
-        bottom: 10%;
 
-
-    }
 
 
 }

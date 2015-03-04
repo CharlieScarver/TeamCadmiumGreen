@@ -78,9 +78,11 @@ section > div.section-wrapper {
 }
 section .section-wrapper >img:first-of-type{
     float: left;
-    max-width: 200px;
+    max-width: 280px;
     border-radius: 10px;
+
     margin: 30px;
+    margin-top: -10px;
     box-shadow: 0px 0px 60px 	#991F00;
 }
 section > div.section-wrapper > h1 {
@@ -88,21 +90,29 @@ section > div.section-wrapper > h1 {
     text-shadow: 0px 0px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:first-of-type {
+    text-indent: 40px;
+    text-align: justify;
     margin: 10px 0px 0px 40px;
     font-size: 18px;
     text-shadow: 0px 0px 30px 	#991F00;
 }
 section > div.section-wrapper  > p:last-of-type{
     font-family: "Colonna MT";
-    font-size:28px ;
+    font-size:27px ;
     text-align: center;
     text-shadow: 0px 0px 30px 	#991F00;
 }
 section .section-wrapper >img:last-of-type{
     float: right;
-    max-width: 300px;
-    margin-top: -60px;
+    max-width: 280px;
+   margin-top: -80px;
+    margin-left: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 60px 	#991F00;
 }
+@media screen and (max-width: 759px) {
+    .section-wrapper >img:last-of-type{
+        display: none;
+    }
 
+}
