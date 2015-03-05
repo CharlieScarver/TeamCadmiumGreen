@@ -1,0 +1,139 @@
+body {
+    background-color: #282828;
+    font-family: Tahoma;
+    color: #CCC;
+}
+input, label {
+    display: block;
+    margin: 35px 0 35px 30px;
+}
+input{
+    width: 30%;
+}
+input, textarea{
+    color:#000000;
+}
+
+.contact-form {
+    font-size: 25px;
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed grey;
+    box-shadow: 15px 15px 60px #991F00;
+    position: relative;
+    top: 45px;
+}
+textarea{
+    width: 58%;
+    float: right;
+    margin: 0 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(0, -50%)
+}
+button {
+    color :#000000;
+    float: right;
+    width: 58%;
+    margin: 0 30px;
+    margin: 0;
+    position: absolute;
+    top: 83%;
+    left: 38%;
+    transform: translate(0, -50%)
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 32%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.glow {
+    box-shadow: 5px 5px 10px #991F00;
+}
+.coordinates {
+    position: absolute;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0, 0.9);
+    width: 350px;
+    bottom: 7%;
+    padding: 25px;
+    margin-left: 25px;
+}
+.info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.info li {
+    margin-bottom: 15px;
+}
+.info li span {
+    color: #991F00;
+}
+.bigger {
+    color: #991F00;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+iframe {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+@media screen and (min-width: 769px){
+  .contact-form{
+    width: 90%;
+    margin:0 auto;
+  }
+
+
+
+}
+@media only screen and (max-width : 768px) {
+    .contact-form {
+        width: 90%;
+        margin: 0 auto;
+        height: 400px;
+
+
+    }
+    input, textarea, button,label{
+        width: 90%;
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+    }
+    textarea{
+        position:absolute;
+
+        top:50%;
+        left: 5%;
+    }
+    button{
+        top:80%;
+        left: 5%;
+    }
+    /*.coordinates{
+        bottom: 10%;
+    }
+*/ .coordinates{
+    display: block;  position: relative;
+    width: 100%;
+    bottom: 10%;
+    text-align: center;
+    margin: 0px;
+       }
+}
+

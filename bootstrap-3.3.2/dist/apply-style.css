@@ -2,11 +2,13 @@ body
 {
     color: #ccc;
     background-color: #282828;
+
 }
 
 main
 {
     width: 80%;
+    min-height: 800px;
     margin: 40px auto;
     padding: 40px;
 
@@ -128,15 +130,8 @@ main > form > section > input[type='submit']:hover
 
 /* ------------------ */
 
-/*@media screen and (min-height: 690px) {
-    footer > p
-    {
-        position: absolute;
-        bottom: 0;
-    }
-}
-*/
-@media screen and (min-width: 769px) {
+
+@media screen and (min-width: 1025px) {
     main > form:after
     {
         display: block;
