@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Fifty Shades Of Nakov </title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<!-- Slides script -->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $DragOrientation: 3,
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,
+                    $ChanceToShow: 2,
+                    $AutoCenter: 0,
+                    $Steps: 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        });
+    </script>
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="nav-n-footer-style.css">
+    <link rel="stylesheet" href="gallery-styles.css"/>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <a href="index.html">
+        <img class="logo" alt="logo" src="images/logo-title.png" />
+    </a>
+    <ul class="nav nav-pills">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="#">Gallery</a></li>
+        <li role="presentation"><a href="apply.html">Apply</a></li>
+        <li role="presentation"><a href="contacts.html">Contacts</a></li>
+        <li role="presentation"><a href="red-room.html">Red Room</a></li>
+    </ul>
+</nav>
+
+<div id="slider1_container" class="asd" style="">
+
+    <!-- Slides Container -->
+    <!-- Add More of Nakov  -->
+    <div data-u="slides" class="slides">
+        <div><img alt="#" data-u="image" src="images/14.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/4.png" /></div>
+        <div><img alt="#" data-u="image" src="images/5.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/6.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/12.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/7.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/8.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/9.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/13.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/10.jpg" /></div>
+        <div><img alt="#" data-u="image" src="images/11.jpg" /></div>
+
+    </div>
+
+        <span data-u="arrowleft" class="jssora03l" style="width: 55px; height: 55px; top: 175px; left: 8px;">
+        </span>
+
+        <span data-u="arrowright" class="jssora03r" style="width: 55px; height: 55px; top: 175px; right: 8px">
+        </span>
+
+</div>
+
+    <!-- Footer -->
+<footer>
+    <div class="footer-holder">
+        <div>
+            <a href="http://validator.w3.org/">
+                <img style="border:0;width:88px;height:31px"
+                     src="http://4.bp.blogspot.com/-Cf1ZOzD0qJ4/VJ-gbgf4EMI/AAAAAAAAAUo/vZrtEJa_sBQ/s1600/W3C_HTML5_certified.png"
+                     alt="Valid HTML!" />
+            </a>
+            <a href="http://www.css-validator.org/">
+                <img style="border:0;width:88px;height:31px"
+                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!" />
+            </a>
+        </div>
+
+        <p> Copyright &copy; 2015 SoftUni - Team CadmiumGreen </p>
+    </div>
+</footer>
+
+</body>
+</html>

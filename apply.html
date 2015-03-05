@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fifty Shades of Nakov</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="nav-n-footer-style.css">
+    <link rel="stylesheet" href="apply-style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse">
+        <a href="index.html">
+            <img class="logo" alt="logo" src="images/logo-title.png" />
+        </a>
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="gallery.html">Gallery</a></li>
+                <li role="presentation" class="active"><a href="#">Apply</a></li>
+                <li role="presentation"><a href="contacts.html">Contacts</a></li>
+                <li role="presentation"><a href="red-room.html">Red Room</a></li>
+            </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <form>
+            <header>
+                <h3>Apply form</h3>
+            </header>
+            <section>
+                <label for="name" class="pointer">Your name: </label>
+                <input type="text" name="name" id="name" placeholder="Who are you?" />
+
+                <label for="job" class="pointer">Your occupation: </label>
+                <input type="text" name="job" id="job" placeholder="What do you do?" />
+
+                <label for="balance" class="pointer">Your bank balance: </label>
+
+                <input type="text" name="balance" id="balance" placeholder="How rich are you?" />
+
+                <label id="gender">Gender: </label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female" >Female</option>
+                    <option value="other" selected="selected">Other</option>
+                </select>
+                <label id="like-nakov">Do you like Nakov?</label>
+                <select name="like-nakov" size="1">
+                    <option value="">Yes</option>
+                    <option value="">I can't wait to meet him.</option>
+                </select>
+
+                <div class="experience">
+                    <label id="experience">Do you have experience in such entertainment: </label>
+                    <div id="radios">
+                         <div id="radio-yes">
+                            <label for="yes" class="sex pointer">Yes </label>
+                            <input type="radio" name="sex" id="yes" value="yes">
+                        </div>
+                        <div id="radio-no" >
+                            <label for="no" class="sex pointer">No </label>
+                            <input type="radio" name="sex" id="no" value="no">
+                        </div>
+                    </div>
+                </div>
+                             
+                <label for="answer-yes" class="pointer">If you answer "yes", please discribe them:</label>
+                <textarea name="opinion-area" id="answer-yes" rows="3" placeholder="Discribe them......."></textarea>
+
+            </section>
+
+            <section>
+                <label for="meeting-hours" >How long would you like your meeting to be: </label>
+
+                <select name="meeting" id="meeting-hours">
+                    <option value="">1 hour</option>
+                    <option value="">2 hours </option>
+                    <option value="">3 hours</option>
+                    <option value="">Whole night</option>
+                </select>
+
+                <label for="dress" >How would you prefer Nakov to be dressed: </label>
+                <select name="nakov-dress" id="dress">
+                    <option value="">As a programmer</option>
+                    <option value="">As Batman </option>
+                    <option value="">As Superman</option>
+                    <option value="">As a cowboy</option>
+                    <option value="">Clothes are for losers</option>
+                </select>
+
+                <label for="opinion-area" class="pointer">If you have any 'special' requirements for the meeting, please write them here:</label>
+                <textarea name="opinion-area" id="opinion-area" rows="10"  placeholder="Write your special requirements..." ></textarea>
+
+                <p id="warning">
+                    By submitting this form you agree to <a href="#"> Nakov's Terms and Conditions.</a>
+                </p>
+
+
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-holder">
+            <div>
+                <a href="http://validator.w3.org/" targer="_blank" >
+                    <img style="border:0;width:88px;height:31px"
+                         src="http://4.bp.blogspot.com/-Cf1ZOzD0qJ4/VJ-gbgf4EMI/AAAAAAAAAUo/vZrtEJa_sBQ/s1600/W3C_HTML5_certified.png"
+                         alt="Valid HTML!" />
+                </a>
+                <a href="http://www.css-validator.org/">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                </a>
+            </div>
+            
+            <p> Copyright &copy; 2015 SoftUni - Team CadmiumGreen </p>
+       </div>
+    </footer>
+
+</body>
+</html>
